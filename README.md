@@ -19,7 +19,7 @@ http://192.168.25.21:8081/
 ```
 docker exec -it 99306051a9d4 ./bin/spark-shell
 ```
-##其中 99306051a9d4 是 spark-master 的容器ID
+其中 99306051a9d4 是 spark-master 的容器ID  
 6.spark-shell测试
 ```
 scala> val file = sc.textFile("/usr/local/spark/bin/beeline")
